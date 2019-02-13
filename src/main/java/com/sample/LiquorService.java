@@ -21,9 +21,14 @@ public class LiquorService {
         }else if(type.equals(LiquorType.WHISKY)){
             brands.add("Glenfiddich");
             brands.add("Johnnie Walker");
+			brands.add("RoyalStag");
+			brands.add("BlendersPride");
 
         }else if(type.equals(LiquorType.BEER)){
             brands.add("Corona");
+			brands.add("Carlsberg");
+			brands.add("budweiser");
+			brands.add("KingFisher");
          
 
         }

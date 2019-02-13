@@ -24,6 +24,12 @@ public class LiquorService {
 
         }else if(type.equals(LiquorType.BEER)){
             brands.add("Corona");
+         
+
+        }
+        else if(type.equals(LiquorType.RUM)){
+            brands.add("XXX");
+            brands.add("Old Monk");
 
         }else {
             brands.add("No Brand Available");

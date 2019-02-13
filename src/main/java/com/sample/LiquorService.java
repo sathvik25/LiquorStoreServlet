@@ -27,8 +27,9 @@ public class LiquorService {
         }else if(type.equals(LiquorType.BEER)){
             brands.add("Corona");
 			brands.add("Carlsberg");
-			brands.add("budweiser");
+			brands.add("BudWeiser");
 			brands.add("KingFisher");
+			brands.add("Heineken");
          
 
         }
